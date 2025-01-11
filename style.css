@@ -13,20 +13,37 @@ body {
   background: linear-gradient(to left, #eb9262, #466cbf);
 }
 
-main{
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: space-around;
+main {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
 }
 
-section{
-    background: linear-gradient(to bottom, #fbf8f8, #fbf8f85e);
-    min-height: 20rem;
-    width: 20rem;   
-    padding: 2rem
+section {
+  background: linear-gradient(to bottom, #fbf8f8, #fbf8f85e);
+  min-height: 20rem;
+  width: 20rem;
+  padding: 2rem;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+h2 {
+  margin-bottom: 1rem;
 }
