@@ -13,18 +13,18 @@ body {
   background: linear-gradient(to left, #eb9262, #466cbf);
 }
 
+main{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+
 section{
     background: linear-gradient(to bottom, #fbf8f8, #fbf8f85e);
     min-height: 20rem;
     width: 20rem;   
     padding: 2rem
-}
-
-main{
-    display: flex;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
 }
 
 ul{
